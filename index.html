@@ -89,6 +89,24 @@
       background-color: #2980b9;
     }
 
+    .game-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6b6b, #f06595, #845ef7);
+      color: white;
+      padding: 14px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      margin-top: 40px;
+    }
+
+    .game-button:hover {
+      transform: scale(1.05);
+    }
+
     @media (min-width: 600px) {
       .links {
         flex-direction: row;
@@ -128,11 +146,9 @@
     <a href="https://www.quora.com/profile/Javed-ShahJee" target="_blank">Quora</a>
   </div>
 
-  <!-- Game Project Link -->
-  <h3>My Game Projects:</h3>
-  <div class="links">
-    <a href="https://javedshahjee.github.io/jumping-box-game/" target="_blank">Play Jumping Box Game</a>
-  </div>
+  <!-- Game Project -->
+  <h3>My Game Project</h3>
+  <a href="https://javedshahjee.github.io/jumping-box-game/" target="_blank" class="game-button">Play Jumping Box Game</a>
 
   <!-- Contact Form -->
   <h3>Contact Me:</h3>
