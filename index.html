@@ -3,162 +3,107 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Javed Shah Jee</title>
+  <title>Javed Shah — Freelancer Profiles</title>
   <style>
     body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: #f9f9f9;
-      text-align: center;
-      padding: 50px 20px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
       color: #333;
     }
-
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
     h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-      color: #2c3e50;
+      margin: 0;
     }
-
-    p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
+    p.description {
+      font-size: 1.1rem;
+      margin-top: 8px;
     }
-
-    h3 {
-      margin-bottom: 20px;
-      color: #34495e;
+    main {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
     }
-
-    .profile-img {
-      width: 150px;
-      border-radius: 50%;
-      margin-bottom: 20px;
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s ease;
     }
-
-    .links {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      max-width: 300px;
-      margin: 0 auto;
+    .card:hover {
+      transform: translateY(-5px);
     }
-
-    .links a {
-      text-decoration: none;
-      padding: 12px 20px;
-      background-color: #3498db;
-      color: #fff;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-
-    .links a:hover {
-      background-color: #2980b9;
-    }
-
-    .skills ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 20px;
-      color: #34495e;
-    }
-
-    .skills li {
-      font-size: 1.1em;
-    }
-
-    .contact-form input, .contact-form textarea {
-      padding: 10px;
-      width: 100%;
-      margin-bottom: 10px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-
-    .contact-form button {
-      padding: 12px 20px;
-      background-color: #3498db;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .contact-form button:hover {
-      background-color: #2980b9;
-    }
-
-    .game-button {
+    .card a {
       display: inline-block;
-      background: linear-gradient(135deg, #ff6b6b, #f06595, #845ef7);
-      color: white;
-      padding: 14px 28px;
-      font-size: 18px;
-      font-weight: bold;
+      margin-top: 10px;
+      color: #004aad;
       text-decoration: none;
-      border-radius: 50px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-      transition: all 0.3s ease;
-      margin-top: 40px;
+      font-weight: bold;
     }
-
-    .game-button:hover {
-      transform: scale(1.05);
+    footer {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
     }
-
-    @media (min-width: 600px) {
-      .links {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      .links a {
-        width: 120px;
-      }
+    .repo-link {
+      color: white;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <!-- Profile Image -->
-  <img src="your-photo-url.jpg" alt="Javed Shah Jee" class="profile-img">
 
-  <h1>Welcome to JavedShahJee's Portfolio</h1>
-  <p>I am a freelance content writer specializing in SEO, health, and tech blogs.</p>
+  <header>
+    <h1>Javed Shah - Verified Freelancer</h1>
+    <p class="description">Explore my professional freelance profiles and original game project.</p>
+  </header>
 
-  <!-- Skills Section -->
-  <h3>Skills</h3>
-  <div class="skills">
-    <ul>
-      <li>✓ SEO Content Writing</li>
-      <li>✓ Health & Tech Blogging</li>
-      <li>✓ WordPress & On-Page SEO</li>
-    </ul>
-  </div>
+  <main>
+    <div class="card">
+      <h2>Freelancer.com</h2>
+      <a href="https://www.freelancer.com/u/javedshahjee" target="_blank">View Profile</a>
+    </div>
+    <div class="card">
+      <h2>Fiverr Gig 1</h2>
+      <a href="https://www.fiverr.com/s/pdNzdNN" target="_blank">SEO Blog Writing</a>
+    </div>
+    <div class="card">
+      <h2>Fiverr Gig 2</h2>
+      <a href="https://www.fiverr.com/s/WEj6EwR" target="_blank">Health & Fitness Writing</a>
+    </div>
+    <div class="card">
+      <h2>Quora</h2>
+      <a href="https://www.quora.com/profile/Javed-Shah-716" target="_blank">Visit Profile</a>
+    </div>
+    <div class="card">
+      <h2>LinkedIn</h2>
+      <a href="https://www.linkedin.com/in/javedshahjee" target="_blank">View Profile</a>
+    </div>
+    <div class="card">
+      <h2>Upwork</h2>
+      <a href="https://www.upwork.com/freelancers/~013a33c3575b35a7e5" target="_blank">See Upwork Profile</a>
+    </div>
+    <div class="card">
+      <h2>My Game: JivaCrib</h2>
+      <a href="https://javedshahjee.github.io/jivacrib" target="_blank">Play Now</a>
+    </div>
+  </main>
 
-  <!-- Connect Links -->
-  <h3>Connect with me:</h3>
-  <div class="links">
-    <a href="https://www.fiverr.com/s/pdNzdNN" target="_blank">Fiverr</a>
-    <a href="https://www.freelancer.com/u/JavedShahJee" target="_blank">Freelancer</a>
-    <a href="https://www.linkedin.com/in/javedshahjee" target="_blank">LinkedIn</a>
-    <a href="https://www.quora.com/profile/Javed-ShahJee" target="_blank">Quora</a>
-  </div>
+  <footer>
+    Made with passion by Javed Shah | 
+    <a class="repo-link" href="https://github.com/javedshahjee/javedshahjee.github.io" target="_blank">GitHub Repo</a>
+  </footer>
 
-  <!-- Game Project -->
-  <h3>My Game Project</h3>
-  <a href="https://javedshahjee.github.io/jumping-box-game/" target="_blank" class="game-button">Play Jumping Box Game</a>
-
-  <!-- Contact Form -->
-  <h3>Contact Me:</h3>
-  <div class="contact-form" style="max-width: 400px; margin: 30px auto;">
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </div>
 </body>
 </html>
